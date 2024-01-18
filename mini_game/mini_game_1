@@ -1,0 +1,16 @@
+
+palpite = 0
+numero = 303
+
+while True:
+    print("Qual o numero correto? ")
+    palpite = int(input())
+    if palpite == numero:
+        print("Parabens voce acertou")
+        break
+    else:
+        print("Voce errou")
+else:
+    print("Erro na aplicacao")
+    print(bool(palpite))
+    
