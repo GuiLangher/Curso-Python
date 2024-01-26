@@ -59,3 +59,57 @@ else:
     print(f"O fatorial de {numero} é: {fatorial}")
 """
 
+#Exercício 6: Verificador de Palíndromos
+"""
+XXX
+def verifica_palindromo(palavra):
+    # Converte a palavra para minúsculas para facilitar a comparação
+    palavra = palavra.lower()
+    
+    # Remove espaços em branco da palavra
+    palavra = palavra.replace(" ", "")
+    
+    # Verifica se a palavra é um palíndromo
+    if palavra == palavra[::-1]:
+        return True
+    else:
+        return False
+
+# Solicita que o usuário insira uma palavra
+palavra_usuario = input("Digite uma palavra para verificar se é um palíndromo: ")
+
+# Chama a função e imprime o resultado
+if verifica_palindromo(palavra_usuario):
+    print(f"{palavra_usuario} é um palíndromo!")
+else:
+    print(f"{palavra_usuario} não é um palíndromo.")
+
+XXX
+"""
+
+#Exercício 7: Contador de Vogais
+
+def contar_vogais(palavra):
+    # Converte a palavra para minúsculas para facilitar a contagem
+    palavra = palavra.lower()
+    
+    # Inicializa o contador de vogais
+    contador_vogais = 0
+    
+    # Lista de vogais
+    vogais = "aeiou"
+    
+    # Itera sobre cada caractere na palavra
+    for caractere in palavra:
+        # Verifica se o caractere é uma vogal
+        if caractere in vogais:
+            contador_vogais += 1
+    
+    return contador_vogais
+
+# Solicita que o usuário insira uma palavra
+palavra_usuario = input("Digite uma palavra para contar as vogais: ")
+
+# Chama a função e imprime o resultado
+num_vogais = contar_vogais(palavra_usuario)
+print(f"A palavra '{palavra_usuario}' possui {num_vogais} vogais.")
