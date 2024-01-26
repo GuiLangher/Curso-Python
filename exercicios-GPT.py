@@ -86,7 +86,7 @@ else:
 
 XXX
 """
-
+"""
 #Exercício 7: Contador de Vogais
 
 def contar_vogais(palavra):
@@ -113,3 +113,5 @@ palavra_usuario = input("Digite uma palavra para contar as vogais: ")
 # Chama a função e imprime o resultado
 num_vogais = contar_vogais(palavra_usuario)
 print(f"A palavra '{palavra_usuario}' possui {num_vogais} vogais.")
+"""
+
