@@ -29,8 +29,9 @@ print(carrinho_de_compras)
 for x in range(len(carrinho_de_compras)):
     print(x, carrinho_de_compras[x])
 """
-
+"""
 lista = ["ana", "Pedro", "Marta", "Clarice", "beatriz", "ana clara"]
 #sort serve para ordenão, nesse exemplo colocando em ordem alfabetica 
 lista.sort(key = str.lower)
 print(lista)
+"""
